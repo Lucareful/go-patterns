@@ -24,3 +24,5 @@ func (f HandlerFunc) ServeHTTP(w ResponseWriter, r *Request) {
 func main() {
 	http.ListenAndServe(":8080", http.HandlerFunc(greetings))
 }
+
+适配器模式
